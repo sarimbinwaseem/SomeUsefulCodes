@@ -1,0 +1,10 @@
+celcius = int(input("Enter temperature in Celcius: "))
+fahrenheit = int(input("Enter temperature in Fahrenheit: "))
+
+fah = ((celcius * (9/5)) +32)
+cel = (fahrenheit - 32) * (5/9)
+print("")
+print("---------------------------------")
+print("Temperature in Fahrenheit:", round(fah, 2))
+print("---------------------------------")
+print("Temperature in Celcius:", round(cel, 2))
