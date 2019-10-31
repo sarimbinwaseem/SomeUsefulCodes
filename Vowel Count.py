@@ -2,8 +2,9 @@ txt = input("Enter string to calculate vowels in it: ")
 
 word = list(txt)
 x =0
+vow = ["a","o","i","e","u"]
 for w in word:
-	if w == 'a' or w == 'e' or w == 'i' or w == 'o' or w == 'u':
+	if w in vow:
 		print("A vowel found: ",end="")
 		print(w)
 		x += 1
